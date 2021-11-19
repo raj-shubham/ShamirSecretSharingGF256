@@ -16,10 +16,10 @@ The traditional way for dividing GF256 elements requires multiplicative inverses
 Version - go version go1.17.3 linux/amd64
 
 ## modules
-"fmt" - i/o
-"crypto/rand" - for secure random byte generation
-"crypto/subtle" - for timing attacks
+### "fmt" - i/o
+### "crypto/rand" - for secure random byte generation
+### "crypto/subtle" - for timing attacks
 
 ## Execution
-### go build shamirSecretSharing.go // this creates an executable named shamirSecretSharing
-### ./shamirSecretSharing
+### step 1 : go build shamirSecretSharing.go // this creates an executable named shamirSecretSharing
+### step 2 : ./shamirSecretSharing
